@@ -13,7 +13,9 @@ var app = express();
 
 ////Cau hinh database (-> vao app cho sau doan var app = express();)
 var mongoose = require("mongoose")
-const url = "mongodb://localhost:27017/greenwich" //sau 27017/tên database
+const url = "mongodb+srv://codecode12345:123456789m@cluster0.ik5tvr8.mongodb.net/cloud" //sau 27017/tên database
+
+
 
 //cau hinh  body parser
 var bodyParser = require("body-parser");
